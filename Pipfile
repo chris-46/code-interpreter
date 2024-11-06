@@ -5,10 +5,14 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-langchainhub = "*"
 langchain-experimental = "*"
 langchain-openai = "*"
 qrcode = "*"
+black = "*"
+python-dotenv = "*"
+langchainhub = "*"
+pandas = "*"
+tabulate = "*"
 
 [dev-packages]
 
