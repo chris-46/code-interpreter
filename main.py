@@ -42,6 +42,7 @@ def main():
         llm=ChatOpenAI(temperature=0, model="gpt-4"),
         path="episode_info.csv",
         verbose=True,
+        allow_dangerous_code=True
     )
 
     ################################ Router Grand Agent ########################################################
